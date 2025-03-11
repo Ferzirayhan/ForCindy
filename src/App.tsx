@@ -143,27 +143,27 @@ function App() {
   
   const galleryImages = [
     {
-      url: "public/SnapInsta.to_476304972_18486970153058990_2745167561444704161_n.jpg",
+      url: "./SnapInsta.to_476304972_18486970153058990_2745167561444704161_n.jpg",
       caption: "Top 3 waktu lo pake baju ini 😏"
     },
     {
-      url: "public/SnapInsta.to_476101100_18486970144058990_1874640697307737782_n.jpg",
+      url: "./SnapInsta.to_476101100_18486970144058990_1874640697307737782_n.jpg",
       caption: "Kaya 'sumpah 'cakep banget'😉 "
     },
     {
-      url: "public/SnapInsta.to_476134949_18486970135058990_2042773977449006890_n.jpg",
+      url: "./SnapInsta.to_476134949_18486970135058990_2042773977449006890_n.jpg",
       caption: "Difoto ini juga yang buat gue realize kalo lo cakep"
     },
     {
-      url: "public/473162047_1152689756285011_5035513448573006777_n.jpg",
+      url: "./473162047_1152689756285011_5035513448573006777_n.jpg",
       caption: "Of course! karena poninya"
     },
     {
-      url: "public/SnapInsta.to_322300622_523561136418222_7153053258090488930_n.jpg",
+      url: "./SnapInsta.to_322300622_523561136418222_7153053258090488930_n.jpg",
       caption: "Ini juga"
     },
     {
-      url: "public/SnapInsta.to_321912546_662176412354160_8386125347914396386_n.jpg",
+      url: "./SnapInsta.to_321912546_662176412354160_8386125347914396386_n.jpg",
       caption: "KARENAAAAA GINGSULNYA"
     }
   ];
@@ -178,7 +178,7 @@ function App() {
     setIsLoaded(true);
     setTimeout(() => setShowMessage(true), 1000);
     
-    audioRef.current = new Audio('public/thecdi.ca - LANY - anything 4 u (Lyric Video) (256 KBps).mp3');
+    audioRef.current = new Audio('./thecdi.ca - LANY - anything 4 u (Lyric Video) (256 KBps).mp3');
     audioRef.current.loop = true;
     
     return () => {
@@ -214,7 +214,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-black text-white">
-      <audio ref={audioRef} src="public/thecdi.ca - LANY - anything 4 u (Lyric Video) (256 KBps).mp3" loop />
+      <audio ref={audioRef} src="./thecdi.ca - LANY - anything 4 u (Lyric Video) (256 KBps).mp3" loop />
       
       <button 
         onClick={toggleMusic} 
@@ -282,7 +282,7 @@ function App() {
 
       <section id="home" className="relative h-screen overflow-hidden">
         <img
-          src="public/SnapInsta.to_441624796_745961217404789_7186868695890977408_n.jpg"
+          src="./SnapInsta.to_441624796_745961217404789_7186868695890977408_n.jpg"
           alt="Birthday Flowers"
           className="absolute inset-0 w-full h-full object-cover opacity-70"
         />
