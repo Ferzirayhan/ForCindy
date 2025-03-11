@@ -169,9 +169,9 @@ function App() {
   ];
 
   const medicationSchedule = [
-    { time: "08:00", medicine: "Morning Medicine", note: "Take with breakfast" },
-    { time: "13:00", medicine: "Afternoon Medicine", note: "Take after lunch" },
-    { time: "20:00", medicine: "Evening Medicine", note: "Take before bed" }
+    { time: "03:45", medicine: "Morning Medicine", note: "MINUM WAKTU SAHUR" },
+    { time: "13:00", medicine: "Afternoon Medicine", note: "TBA" },
+    { time: "20:00", medicine: "Evening Medicine", note: "TBA" }
   ];
 
   useEffect(() => {
@@ -288,14 +288,14 @@ function App() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent" />
         
-        <div className={`relative h-full flex flex-col items-center justify-center px-4 text-center transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <h1 className="text-5xl md:text-8xl font-bold tracking-tight mb-6">
-            Hi Cindy!
-          </h1>
-          <p className="text-xl md:text-3xl font-light text-gray-200 mb-8">
-            Happy Belated Birthday! 🎂 
-          </p>
-        </div>
+        <div className={`relative h-full flex flex-col items-center justify-center px-4 text-center transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'} mt-32 md:mt-0`}>
+  <h1 className="text-5xl md:text-8xl font-bold tracking-tight mb-6">
+    Hi Cindy!
+  </h1>
+  <p className="text-xl md:text-3xl font-light text-gray-200 mb-8">
+    Happy Belated Birthday! 🎂 
+  </p>
+</div>
       </section>
 
       <div className={`transition-all duration-1000 delay-500 ${showMessage ? 'opacity-100' : 'opacity-0'}`}>
@@ -353,15 +353,15 @@ function App() {
                   <Camera className="w-6 h-6 text-rose-500" />
                 </div>
                 <div className="mb-6">
-                  <span className="text-rose-500 text-sm font-medium">01 March 2024</span>
+                  <span className="text-rose-500 text-sm font-medium">8 March 2025</span>
                 </div>
                 <h3 className="text-2xl font-bold mb-4">First Time We Met</h3>
                 <p className="text-gray-400 mb-6">
-                  That magical moment when our paths crossed for the first time. Your smile lit up the entire room.
+                  For me that nite , your smile lit up the entire room.
                 </p>
                 <div className="flex items-center text-sm text-rose-400">
                   <MapPin className="w-4 h-4 mr-2" />
-                  <span>Coffee Shop</span>
+                  <span>Mattea Coffeshop</span>
                 </div>
               </div>
 
@@ -371,15 +371,16 @@ function App() {
                   <Coffee className="w-6 h-6 text-rose-500" />
                 </div>
                 <div className="mb-6">
-                  <span className="text-rose-500 text-sm font-medium">15 March 2024</span>
+                  <span className="text-rose-500 text-sm font-medium">10 March 2024</span>
                 </div>
                 <h3 className="text-2xl font-bold mb-4">Late Night Talks</h3>
                 <p className="text-gray-400 mb-6">
-                  Those endless conversations where we lost track of time, sharing stories and dreams.
+                  Sorry banget , sampe sekarang gue masih malu dan lupa apa yang telah gue omongin saat gue drunk call.
+                  but that was the first and the last time i drunk call someone.
                 </p>
                 <div className="flex items-center text-sm text-rose-400">
                   <MapPin className="w-4 h-4 mr-2" />
-                  <span>Favorite Cafe</span>
+                  <span>Dirumah</span>
                 </div>
               </div>
 
@@ -389,11 +390,11 @@ function App() {
                   <Music className="w-6 h-6 text-rose-500" />
                 </div>
                 <div className="mb-6">
-                  <span className="text-rose-500 text-sm font-medium">20 March 2024</span>
+                  <span className="text-rose-500 text-sm font-medium">TBA</span>
                 </div>
                 <h3 className="text-2xl font-bold mb-4">Our Favorite Song</h3>
                 <p className="text-gray-400 mb-6">
-                  The moment we discovered we both love the same music. Now it's our song.
+                 TBA
                 </p>
                 <div className="flex items-center text-sm text-rose-400">
                   <MapPin className="w-4 h-4 mr-2" />
@@ -407,15 +408,15 @@ function App() {
                   <Stars className="w-6 h-6 text-rose-500" />
                 </div>
                 <div className="mb-6">
-                  <span className="text-rose-500 text-sm font-medium">25 March 2024</span>
+                  <span className="text-rose-500 text-sm font-medium">TBA</span>
                 </div>
                 <h3 className="text-2xl font-bold mb-4">Stargazing Night</h3>
                 <p className="text-gray-400 mb-6">
-                  Under the stars, we shared our deepest secrets and brightest hopes for the future.
+                TBA
                 </p>
                 <div className="flex items-center text-sm text-rose-400">
                   <MapPin className="w-4 h-4 mr-2" />
-                  <span>Rooftop Garden</span>
+                  <span>TBA</span>
                 </div>
               </div>
 
@@ -425,11 +426,11 @@ function App() {
                   <Gift className="w-6 h-6 text-rose-500" />
                 </div>
                 <div className="mb-6">
-                  <span className="text-rose-500 text-sm font-medium">30 March 2024</span>
+                  <span className="text-rose-500 text-sm font-medium">TBA</span>
                 </div>
                 <h3 className="text-2xl font-bold mb-4">Surprise Gift</h3>
                 <p className="text-gray-400 mb-6">
-                  The joy in your eyes when you received that unexpected surprise. Priceless!
+                  TBA
                 </p>
                 <div className="flex items-center text-sm text-rose-400">
                   <MapPin className="w-4 h-4 mr-2" />
@@ -443,11 +444,11 @@ function App() {
                   <Cake className="w-6 h-6 text-rose-500" />
                 </div>
                 <div className="mb-6">
-                  <span className="text-rose-500 text-sm font-medium">31 March 2024</span>
+                  <span className="text-rose-500 text-sm font-medium">23 Agustus 2025</span>
                 </div>
                 <h3 className="text-2xl font-bold mb-4">Birthday Celebration</h3>
                 <p className="text-gray-400 mb-6">
-                  Your special day filled with laughter, cake, and beautiful moments together.
+                 ini TBA juga karena gatau apa yang terjadu di masa depan
                 </p>
                 <div className="flex items-center text-sm text-rose-400">
                   <MapPin className="w-4 h-4 mr-2" />
@@ -463,8 +464,11 @@ function App() {
             <Calculator className="w-16 h-16 mx-auto mb-8 text-rose-500" />
             <h2 className="text-4xl md:text-5xl font-bold mb-8">Algebra Challenge!</h2>
             <p className="text-xl text-gray-400 mb-12">
-              Selesaikan soal aljabar dengan benar dan dapatkan voucher GoFood! 🎁<br/>
-              Kamu bisa menukarkan voucher dengan menghubungi via WhatsApp
+              Karena lo bilang ke gue suka MTK, <br/>
+              Coba lo kelarin soal dibawah dan input hasilnya. <br/>
+              Kalo bener nanti keluar voucher GoFood buat lo. <br/>
+              Good luck! 🍀
+            
             </p>
             <MathGame />
           </div>
@@ -477,7 +481,8 @@ function App() {
                 Daily Medication Schedule
               </h2>
               <p className="text-xl text-gray-400 mb-12">
-                Because I care about your health, here's your daily reminder ❤️
+                Last but not least <br/>
+                Cause I care about your health, here's your daily reminder ❤️
               </p>
             </div>
 
